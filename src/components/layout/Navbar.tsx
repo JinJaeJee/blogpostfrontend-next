@@ -7,6 +7,8 @@ import { FiMenu, FiX } from "react-icons/fi";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Drawer from '@mui/material/Drawer';
 import { Button } from "@mui/material";
+import Sidebar from "./Sidebar";
+
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -58,9 +60,6 @@ const Navbar = () => {
 
 
             </div>
-
-
-
 
 
         </div>
